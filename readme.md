@@ -8,8 +8,8 @@ Leverages code borrowed from https://bitbucket.org/MartinEden/local-policy/src/d
 ```
 Usage:
 	DisableDefender.exe
-		Will disable defender
+		Will disable defender by enabling GPOs - values set are gathered from the Dictionary list variable.
 
 	DisableDefender.exe --clean
-		Will re-enable defender
+		Will re-enable defender by setting GPO values back to null
 ```
